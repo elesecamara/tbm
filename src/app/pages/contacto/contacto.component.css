@@ -1,0 +1,68 @@
+.card-box {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.social-links li a {
+    border-radius: 50%;
+    color: rgba(121, 121, 121, .8);
+    display: inline-block;
+    height: 30px;
+    line-height: 27px;
+    border: 2px solid rgba(121, 121, 121, .5);
+    text-align: center;
+    width: 30px
+}
+
+.social-links li a:hover {
+    color: #797979;
+    border: 2px solid #797979
+}
+.thumb-lg {
+    height: 88px;
+    width: 88px;
+}
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+.text-pink {
+    color: #ff679b!important;
+}
+.btn-rounded {
+    border-radius: 2em;
+}
+.text-muted {
+    color: #98a6ad!important;
+}
+h4 {
+    line-height: 22px;
+    font-size: 18px;
+}
+.content {
+    background-color: #f4f4f4;
+    padding: 3%;
+    border-radius: 9px;
+    margin-bottom: 60px;
+}
+.btnPata {
+    border-radius: 35px;
+    font-size: .8em;
+    font-weight: 600;
+    box-shadow: #0000003d 0 3px 8px;
+    margin-left: 30px;
+    min-width: 150px;
+}
+.clrBrandoraBlck {
+    background-color: #395250;
+}
+.icnBtnPta {
+    width: 25px;
+}

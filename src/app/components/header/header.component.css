@@ -1,0 +1,13 @@
+a.nav-link {
+    cursor: pointer;
+    color: white; transition: .3s;
+}
+a.nav-link:hover {
+    cursor: pointer;
+    color: rgb(193, 197, 204); text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+.bg-dark {
+    /*background-color: #262261 !important;*/
+    background: #262261!important;
+    background: linear-gradient(90deg,rgba(38, 34, 97, 1) 0%, rgba(38, 34, 97, 1) 0%, rgba(19, 15, 61, 1) 100%)!important;
+}

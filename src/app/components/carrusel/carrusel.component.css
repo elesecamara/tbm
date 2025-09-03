@@ -1,0 +1,53 @@
+/*Carrusel*/
+.carrusel {
+    min-height: 450px;
+    background-image: url("/assets/img/carrusel/crecer.jpg");
+    background-size: cover;
+    transition: background-image 0.4s ease-in-out;
+}
+.carruselInt{
+   
+    background-image: url("/assets/img/carrusel/azul.png");
+    background-size: cover;
+}
+.carruselIzq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+.carruselIzq img {
+    width: 350px;
+    margin-bottom: 30px;
+}
+.carruselText{ text-align: right; font-weight: bolder; font-style: italic; font-size: 2.2em; color: rgb(220, 255, 255);text-shadow: 2px 2px 5px #151400;
+}
+.carruselDer h2 {
+    z-index: 2;
+    position: absolute;
+    top: 390px;
+    background-color: #0000006e;
+    padding: 3px 25px;
+    border-radius: 5px;
+}
+.carruselDer img {
+    width: 80%; 
+    transition: 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+    .carruselDer {
+        display: flex;
+        justify-content: center;
+    }
+    .carruselIzq img {
+        width: 250px;
+        margin-bottom: 20px;
+        margin-top: 60px;
+    }
+    .carruselText {
+        text-align:center;
+        font-size: 1.2em;
+    }
+    .carruselDer img {width: 50%;}
+    .carrusel { min-height: 400px;}
+}
