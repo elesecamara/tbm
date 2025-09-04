@@ -67,6 +67,14 @@ h4 {
     width: 25px;
 }
 
+.row.contacto {
+            display: flex;
+            justify-content: flex-start;
+            align-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
 @media (max-width: 768px) {
     a.btn.btn-primary.clrBrandoraBlck.btnPata {
         min-width: 200px;
