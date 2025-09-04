@@ -66,3 +66,10 @@ h4 {
 .icnBtnPta {
     width: 25px;
 }
+
+@media (max-width: 768px) {
+    a.btn.btn-primary.clrBrandoraBlck.btnPata {
+        min-width: 200px;
+        margin-bottom: 10px;
+    }
+}

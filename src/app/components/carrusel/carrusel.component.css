@@ -1,6 +1,6 @@
 /*Carrusel*/
 .carrusel {
-    min-height: 450px;
+    /*min-height: 450px;*/
     background-image: url("/assets/img/carrusel/crecer.jpg");
     background-size: cover;
     transition: background-image 0.4s ease-in-out; 
@@ -25,7 +25,7 @@
 .carruselDer h2 {
     z-index: 2;
     position: absolute;
-    top: 390px;
+    top: 45%;
     background-color: #0000006e;
     padding: 3px 25px;
     border-radius: 5px;
@@ -33,6 +33,10 @@
 .carruselDer img {
     width: 80%; 
     transition: 0.3s ease-in-out;
+}
+@media (max-width: 1391px) {
+        .carruselDer h2 { top: 35%;}
+    .carruselText { font-size: 1.2em;}
 }
 @media (max-width: 821px) {
 
@@ -48,8 +52,11 @@
         margin-top: 20px;
     }
     .carruselText {font-size: 1.2em;}
-    .carruselDer h2 { top: 230px;}
-}    
+    .carruselDer h2 { top: 20%;}
+} 
+@media (max-width: 767px) {
+        .carruselDer h2 { top: 35%;}
+}   
 @media (max-width: 768px) {
     .carruselDer {
         display: flex;
@@ -67,6 +74,6 @@
     .carruselDer img {width: 50%;}
     .carrusel { min-height: 400px;}
     .carruselDer h2 {
-            top: 430px;
+            top: 45%;
     }
 }

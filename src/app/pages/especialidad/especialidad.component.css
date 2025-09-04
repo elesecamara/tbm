@@ -7,6 +7,6 @@
 
 @media (max-width: 768px) {
     .container.py-3.especialCont {
-    margin-top: 50px;
-}
+      margin-top: 50px;
+  }
 }
