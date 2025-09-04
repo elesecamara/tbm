@@ -11,3 +11,8 @@ a.nav-link:hover {
     background: #262261!important;
     background: linear-gradient(90deg,rgba(38, 34, 97, 1) 0%, rgba(38, 34, 97, 1) 0%, rgba(19, 15, 61, 1) 100%)!important;
 }
+@media (max-width: 768px) {
+    li.nav-item {
+        padding-left: 15px;
+    }
+}

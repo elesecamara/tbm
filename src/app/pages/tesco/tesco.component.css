@@ -112,3 +112,8 @@
             margin-bottom: 1rem;
             color: #495057;
         }
+
+@media (max-width: 768px) {
+    .col-md-3.tscoImg img {width: 90%;}
+}
+       

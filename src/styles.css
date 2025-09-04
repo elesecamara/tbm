@@ -90,3 +90,20 @@ img.icn_social {
   opacity: 0;
 }
 /* You can add global styles to this file, and also import other style files */
+
+
+@media (max-width: 821px) {
+    .col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4 {
+        width: 1%!important;
+    }
+    .col-md-3.col-lg-2.col-xl-2.mx-auto.mb-4 {
+        width: 10%;
+    }
+    img.icn_social {
+        width: 20px!important;
+    }
+    .col-md-4.col-lg-3.col-xl-3.mx-auto.mb-md-0.mb-4 {
+        font-size: .8em;
+    }
+}
+

@@ -3,7 +3,7 @@
     min-height: 450px;
     background-image: url("/assets/img/carrusel/crecer.jpg");
     background-size: cover;
-    transition: background-image 0.4s ease-in-out;
+    transition: background-image 0.4s ease-in-out; 
 }
 .carruselInt{
    
@@ -34,6 +34,22 @@
     width: 80%; 
     transition: 0.3s ease-in-out;
 }
+@media (max-width: 821px) {
+
+    .carrusel {
+        min-height: 240px;
+        background-image: url("/assets/img/carrusel/crecer.jpg");
+        background-size: cover;
+        transition: background-image 0.4s ease-in-out; 
+    }
+    .carruselIzq img {
+        width: 220px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .carruselText {font-size: 1.2em;}
+    .carruselDer h2 { top: 230px;}
+}    
 @media (max-width: 768px) {
     .carruselDer {
         display: flex;
@@ -50,4 +66,7 @@
     }
     .carruselDer img {width: 50%;}
     .carrusel { min-height: 400px;}
+    .carruselDer h2 {
+            top: 430px;
+    }
 }

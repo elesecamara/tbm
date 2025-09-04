@@ -1,8 +1,3 @@
-/* home.component.css */
-.hero-section {
-  padding: 0;
-  background-color: #e8e8e8;
-}
 .contHero, .image-container{min-height: 500px;}
 .image-container {
   height: 400px;
@@ -101,7 +96,32 @@ img.icn {
     display: flex;
     justify-content: center;
 }
+.hero-section {
+  padding: 0;
+  background-color: #e8e8e8;
+}
+@media (max-width: 821px) {
+    .segunda {
+        padding: 0 25px 40px !important;
+    }
+    .cardHome h2 { font-size:1.3em;}
+    .naranja {
+        font-size: .9em;
+    }
+    .naranja span {
+        font-size: .9em;
+    }
+    .row.cardContacto.mt-4 {
+        font-size: .8em;
+    }
+    .col-md-7.cardHome.cardBottom {
+        width: 99%;
+    }
+    img.icn {
+        width: 10px!important;
+    }
 
+}
 @media (max-width: 768px) {
     section.hero-section {
         margin-top: 03px;
@@ -161,5 +181,26 @@ img.icn {
         border-radius: 5px;
         width: 90%;
         text-align: center;
+    }
+    .naranja  {
+        font-size: .9em;
+    }
+    .naranja span {
+        font-weight: 500;
+        width: 100%;
+        display: block;
+        font-size: .8em;
+    }
+    .row.mb-2 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1% 2%;
+        border-radius: 6px;
+    }
+    .row.cardContacto.mt-4 {
+        font-size: .85em;
+    }
+    .col-11.naranja br {
+        display: none;
     }
 }
