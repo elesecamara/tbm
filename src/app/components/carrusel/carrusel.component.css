@@ -1,79 +1,129 @@
-/*Carrusel*/
+/* Carrusel */
 .carrusel {
-    /*min-height: 450px;*/
-    background-image: url("/assets/img/carrusel/crecer.jpg");
+    /*min-height: 450px;
+    background-image: url("/assets/img/carrusel/crecer.jpg");*/
     background-size: cover;
     transition: background-image 0.4s ease-in-out; 
+    height: 500px;
 }
+
 .carruselInt{
-   
-    background-image: url("/assets/img/carrusel/azul.png");
+    /*background-image: url("/assets/img/carrusel/azul.png");*/
     background-size: cover;
 }
+
 .carruselIzq {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 20px;
 }
+
 .carruselIzq img {
     width: 350px;
     margin-bottom: 30px;
 }
-.carruselText{ text-align: right; font-weight: bolder; font-style: italic; font-size: 2.2em; color: rgb(220, 255, 255);text-shadow: 2px 2px 5px #151400;
+
+.carruselDer {
+    background-size: 400px;
+    background-position: right bottom;
+    transition: background-image 0.5s ease-in-out;
+    background-repeat: no-repeat;
 }
+
+.carruselText{ 
+    text-align: center;
+    font-weight: bolder; 
+    font-style: italic; 
+    font-size: 2.2em; 
+    color: rgb(220, 255, 255);
+    text-shadow: 2px 2px 5px #151400;
+}
+
 .carruselDer h2 {
-    z-index: 2;
-    position: absolute;
-    top: 45%;
     background-color: #0000006e;
     padding: 3px 25px;
     border-radius: 5px;
+    margin: 0;
+    font-size: 1.7em;
 }
-.carruselDer img {
-    width: 80%; 
-    transition: 0.3s ease-in-out;
-}
-@media (max-width: 1391px) {
-        .carruselDer h2 { top: 35%;}
-    .carruselText { font-size: 1.2em;}
-}
-@media (max-width: 821px) {
 
+.contInfoDer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contInfoDer .row {
+  flex: 1;
+  min-height: 0;
+}
+
+@media (max-width: 1391px) {
+    .carruselText { 
+        font-size: 1.8em;
+    }
+    /*.carrusel {height: 39vh;}*/
+}
+
+@media (max-width: 821px) {
     .carrusel {
         min-height: 240px;
-        background-image: url("/assets/img/carrusel/crecer.jpg");
-        background-size: cover;
+       /* background-image: url("/assets/img/carrusel/crecer.jpg");
+        background-size: cover;*/
         transition: background-image 0.4s ease-in-out; 
     }
+    
     .carruselIzq img {
         width: 220px;
         margin-bottom: 10px;
         margin-top: 20px;
     }
-    .carruselText {font-size: 1.2em;}
-    .carruselDer h2 { top: 20%;}
-} 
-@media (max-width: 767px) {
-        .carruselDer h2 { top: 35%;}
-}   
-@media (max-width: 768px) {
-    .carruselDer {
-        display: flex;
-        justify-content: center;
-    }
-    .carruselIzq img {
-        width: 250px;
-        margin-bottom: 20px;
-        margin-top: 60px;
-    }
+    
     .carruselText {
-        text-align:center;
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
-    .carruselDer img {width: 50%;}
-    .carrusel { min-height: 400px;}
+    .carruselDer {
+    background-size: 300px;
+    background-position: bottom;}
     .carruselDer h2 {
-            top: 45%;
+        padding: 3px 5px;
+        font-size: 1.1em;
+    }
+} 
+
+@media (max-width: 768px) {
+
+    
+    .carruselDer {
+        min-height: 300px;
+        display: flex;
+        justify-content: center;background-size: 42%;
+    }
+    
+    .carruselIzq img {
+        /*width: 250px;*/
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .carruselText {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    .carrusel { 
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carruselText {
+        font-size: 1.2em;
+        padding: 0px;
+    }
+    
+    .carruselDer {
+        min-height: 250px;background-size: 48%;
     }
 }

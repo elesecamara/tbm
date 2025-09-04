@@ -16,19 +16,23 @@
 <!-- carrusel.component.html -->
 <!-- carrusel.component.html -->
 <div class="container-fluid carruselCont">
-  <div class="carrusel" [style.background-image]="'url(' + currentItem.background + ')'">
-    <div class="row carruselInt" [@slideAnimation]="currentIndex">
-      <div class="col-md-6 carruselIzq">
+  <div class="row carrusel" [style.background-image]="'url(' + currentItem.background + ')'">
+
+      <div class="col-md-6 carruselIzq" >
         <div class="contImg"><img class="mx-auto d-block" src="/assets/img/logoWhite.svg" alt=""></div>
         <h2 class="carruselText">¡Tenemos la solución que necesitas!</h2>
         <h2 class="carruselText">Sin importar si:</h2>
       </div>
-      <div class="col-md-4 carruselDer">
-        <h2 class="carruselText">{{ currentItem.texto }}</h2>
-        <img [src]="currentItem.imagen" alt="">
-      </div>        
-    </div>
+      <div class="col-md-5 carruselDer" [style.background-image]="'url(' + currentItem.imagen + ')'">
+        <div class="container contInfoDer h-100 d-flex flex-column">
+          <div class="row flex-fill"></div>
+          <div class="row flex-fill d-flex flex-column justify-content-end">
+            <div class="col-12">
+              <h2 class="carruselText">{{ currentItem.texto }}</h2>
+            </div>
+          </div>
+          <div class="row flex-fill"></div>
+        </div>    
+      </div>
   </div>
-  
-
 </div>
