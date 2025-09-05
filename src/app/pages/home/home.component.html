@@ -2,9 +2,49 @@
   <app-carrusel></app-carrusel>
 </section>
 <section class="sectionDos">
-<div class="container-fluid segunda">
+  <div class="container-fluid segunda fndGris">
   <div class="row tituloHome mb-5">
     <h1>NUESTRA ESPECIALIDAD</h1>
+    <div class="contA"><a class="btn btn-outline-primary btnHome " [routerLink]="ROUTES.CONTACTO" routerLinkActive="active">Cotizar </a></div>
+  </div>
+  <div class="row contCardsHome oneCards">
+    <div class="col-md-7 cardHome cardBottom">
+      <h3>BANDAS PLANAS DE TRANSMISIÓN Y TRANSPORTE</h3>
+      <div class="row mb-2 mt-4 gris">
+        <div class="col-11 naranja">
+          <span>A,B,C,D,E.AX,BX,CX</span>
+        </div>
+        <div class="col-1">
+          <a class="nav-link" [routerLink]="ROUTES.ESPECIALIDAD" routerLinkActive="active">
+            <img class="icn" src="/assets/img/mas.svg" alt="TBM " >
+          </a>
+        </div>
+      </div>
+      <h3>TRANSMISIÓN Y POTENCIA</h3>
+      <div class="row mb-2">
+        <div class="col-11 naranja">
+          <span>HULE+ POLIAMIDA, Tangenciales.</span>
+        </div>
+        <div class="col-1">
+          <a class="nav-link" [routerLink]="ROUTES.ESPECIALIDAD" routerLinkActive="active">
+            <img class="icn" src="/assets/img/mas.svg" alt="TBM " >
+          </a>
+        </div>
+      </div>
+
+      <div class="row cardContacto mt-4">
+        <div class="col-2"><img src="/assets/img/circ.svg" alt="TBM " ></div>
+        <div class="col-10 ps-3">
+          <div class="row">Email:</div>
+          <div class="row">ventas1&#64;bandasdemexico.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!--Bottom-->
+<div class="container-fluid segunda">
+  <div class="row tituloHome mb-5">
+    <h1>CONSULTA NUESTRO CATÁLOGO</h1>
     <div class="contA"><a class="btn btn-outline-primary btnHome " [routerLink]="ROUTES.CONTACTO" routerLinkActive="active">Cotizar </a></div>
   </div>
   <div class="row contCardsHome">
