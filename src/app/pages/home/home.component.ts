@@ -35,6 +35,73 @@ export class HomeComponent implements OnInit, OnDestroy {
     }
   ];
 
+  bandas = [
+    {
+      "name": "BANDA MIL SUPER TORQUE",
+      "value": "S3M,S5M,S8M,S14M"
+    },
+    {
+      "name": "BANDA REDONDA",
+      "value": "Verde y naranja."
+    },
+    {
+      "name": "BANDA SINCRÓNICA",
+      "value": "MXL,XL,L,H,XH,XXH"
+    },
+    {
+      "name": "BANDA SINCRÓNICA MILIMETRICA",
+      "value": "3M,5M,8M,14M,D5M,D8M,D14"
+    },
+    {
+      "name": "BANDA SINCRÓNICA POLIURETANO",
+      "value": "T2.5, T5, T10, T20, AT5, AT10, AT20"
+    },
+    {
+      "name": "BANDAS CLÁSICAS",
+      "value": "A,B,C,D,E.AX,BX,CX"
+    },
+    {
+      "name": "BANDAS DOBLE",
+      "value": "V AA,BB,CC"
+    },
+    {
+      "name": "BANDAS ESPECIALES",
+      "value": "Perforaciones o diseños."
+    },
+    {
+      "name": "BANDAS MILIMÉTRICAS",
+      "value": "SPZ,SPA,SPB,SPC (Y DENTADAS)"
+    },
+    {
+      "name": "BANDAS MULTIPLES",
+      "value": "RA,RB,RC.RD,R3V,R5V,R8V"
+    },
+    {
+      "name": "BANDAS MULTIRIB",
+      "value": "J,L,K,M"
+    },
+    {
+      "name": "BANDAS PLANAS DE TRANSMISIÓN Y TRANSPORTE",
+      "value": "PU, PVC, Nitrilo."
+    },
+    {
+      "name": "BANDAS VELOCIDAD VARIABLE",
+      "value": ""
+    },
+    {
+      "name": "DOBLE DENTADAS",
+      "value": "DXL, DL, DH"
+    },
+    {
+      "name": "RECUBRIMIENTOS",
+      "value": "Rojo, Ambar, Negro de esponja."
+    },
+    {
+      "name": "TRANSMISIÓN DE POTENCIA",
+      "value": "HULE+ POLIAMIDA, Tangenciales."
+    }
+  ];
+
   heroTitle: string = '';
   heroDescription: string = '';
   buttonText: string = '';

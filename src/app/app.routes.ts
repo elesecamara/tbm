@@ -9,9 +9,9 @@ import { EspecialidadComponent } from './pages/especialidad/especialidad.compone
 // Exporta constantes de rutas para usar en toda la aplicación
 export const APP_ROUTES = {
   HOME: '',
-  ESPECIALIDAD: 'especialidad',
+  ESPECIALIDAD: 'bandas-planas-transmision',
   SOLUCIONES: 'soluciones',
-  TESCO: 'tesco',
+  TESCO: 'nosotros',
   COMPLEMENTOS: 'complementos',
   CONTACTO: 'contacto'
 } as const;
@@ -22,9 +22,9 @@ export type AppRoute = keyof typeof APP_ROUTES;
 // Configuración de rutas de Angular (usa las constantes)
 export const routes: Routes = [
   { path: APP_ROUTES.HOME, component: HomeComponent, title: 'Inicio | TBM' },
-  { path: APP_ROUTES.ESPECIALIDAD, component: EspecialidadComponent, title: 'Nuestra Especialidad | TBM' },
+  { path: APP_ROUTES.ESPECIALIDAD, component: EspecialidadComponent, title: 'Bandas Planas de Transmisión y Transporte | TBM' },
   { path: APP_ROUTES.SOLUCIONES, component: SolucionesComponent, title: 'Nuestras Soluciones | TBM' },
-  { path: APP_ROUTES.TESCO, component: TescoComponent, title: 'Tesco | TBM' },
+  { path: APP_ROUTES.TESCO, component: TescoComponent, title: 'Nosotros | TBM' },
 
   { path: APP_ROUTES.CONTACTO, component: ContactoComponent, title: 'Contacto | TBM' },
   { path: '**', redirectTo: APP_ROUTES.HOME }
