@@ -17,6 +17,7 @@
             align-items: center;
             position: relative;
             overflow: hidden;
+            max-width: 100%;
         }
         
         /* Fondo con imagen y degradado superpuesto */
