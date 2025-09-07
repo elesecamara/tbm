@@ -2,10 +2,16 @@
   <app-carrusel></app-carrusel>
 </section>
 <section class="sectionDos">
-  <div class="container-fluid segunda fndGris">
+  <div class="container-fluid segunda fndGris especiales">
   <div class="row tituloHome mb-5">
-    <h1>NUESTRA ESPECIALIDAD</h1>
+    <h1>ATENCIÓN ESPECIAL A LAS INDUSTRIAS:</h1>
     <div class="contA"><a class="btn btn-outline-primary btnHome " [routerLink]="ROUTES.CONTACTO" routerLinkActive="active">Cotizar </a></div>
+  </div>
+  <div class="industrias row mb-5">
+      <div class="col-md-6 alimenticia"><img class="especialidad" src="/assets/img/especialidad/alimenticia.png" alt="TBM " ></div>
+      <div class="col-md-6 litografica"><img class="especialidad" src="/assets/img/especialidad/litografica.png" alt="TBM " ></div>
+      <div class="col-md-6 cartonera"><img class="especialidad" src="/assets/img/especialidad/cartonera.png" alt="TBM " ></div>
+      <div class="col-md-6 textil"><img class="especialidad" src="/assets/img/especialidad/textilera.png" alt="TBM " ></div>
   </div>
   <div class="row contCardsHome oneCards">
     <div class="col-md-7 cardHome cardBottom">
@@ -48,7 +54,7 @@
     <div class="contA"><a class="btn btn-outline-primary btnHome " [routerLink]="ROUTES.CONTACTO" routerLinkActive="active">Cotizar </a></div>
   </div>
   <div class="row contCardsHome">
-    <div class="col-md-7 cardHome">
+    <div class="col-md-9 cardHome mb-5">
       <h2>NUESTROS PRODUCTOS</h2>
       <ng-container *ngFor="let banda of bandas; let i = index">
         <div class="row mb-2" [ngClass]="{'gris': i % 2 === 0}">
@@ -76,7 +82,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-5 cardHome">
+    <div class="col-md-9 cardHome">
       <h2>COMPLEMENTOS</h2>
       <div class="row mb-2 mt-4 gris">
         <div class="col-11 naranja"><span>Empujadores y Guías:</span><br>para transporte de papel, cartón alimentos etc </div>

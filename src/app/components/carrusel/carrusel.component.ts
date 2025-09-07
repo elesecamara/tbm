@@ -68,15 +68,21 @@ export class CarruselComponent implements OnInit, OnDestroy {
     },
     {
       id: 2,
-      background: '/assets/img/carrusel/empezando.jpg',
+      background: '/assets/img/carrusel/litografia.jpg',
       texto: 'Estoy comenzando...',
-      imagen: '/assets/img/carrusel/empezando.png'
+      imagen: '/assets/img/carrusel/litografia.png'
     },
     {
       id: 3,
       background: '/assets/img/carrusel/futuro.jpg',
       texto: 'Deseo automatizar procesos...',
       imagen: '/assets/img/carrusel/futuro.png'
+    },
+        {
+      id: 4,
+      background: '/assets/img/carrusel/textil.jpg',
+      texto: 'Mantener mi producción optima...',
+      imagen: '/assets/img/carrusel/textil.png'
     }
   ];
 
