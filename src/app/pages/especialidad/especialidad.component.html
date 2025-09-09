@@ -38,7 +38,7 @@
   >
   <div class="card-body d-flex flex-column">
     <h5 class="card-title">{{ producto.nombre[idioma] }}</h5>
-    <p class="card-text mt-2">
+    <p class="card-text mt-2" *ngIf="producto.detalles[idioma]?.capaSuperior && producto.detalles[idioma]?.capaSuperior !== 'hide'">
         Capa Superior: {{ producto.detalles[idioma]?.capaSuperior }}
     </p>
 

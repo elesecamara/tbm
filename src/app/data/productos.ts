@@ -177,19 +177,19 @@ export const PRODUCTOS: Producto[] = [
     }
   },
   // Cartonera
-  { nombre: { es: "Cartonera 1", en: "Cartonera 1" }, imagen: "cartonera5.jpg", categoria: "Cartonera", detalles: { es: {capaSuperior: "I15"}, en: {capaSuperior: "I15"} } },
-  { nombre: { es: "Cartonera 2", en: "Cartonera 2" }, imagen: "cartonera3.jpg", categoria: "Cartonera", detalles: { es: {capaSuperior: "I20"}, en: {capaSuperior: "I20"} } },
-  { nombre: { es: "Cartonera 3", en: "Cartonera 3" }, imagen: "cartonera4.jpg", categoria: "Cartonera", detalles: { es: {capaSuperior: "I26"}, en: {capaSuperior: "I26"} } },
-  { nombre: { es: "Cartonera 4", en: "Cartonera 4" }, imagen: "cartonera2.jpg", categoria: "Cartonera", detalles: { es: {capaSuperior: "CT-26"}, en: {capaSuperior: "CT-26"} } },
-  { nombre: { es: "Cartonera 5", en: "Cartonera 5" }, imagen: "cartonera1.jpg", categoria: "Cartonera", detalles: { es: {capaSuperior: "I30"}, en: {capaSuperior: "I30"} } },
+  { nombre: { es: "I15", en: "I15" }, imagen: "cartonera5.jpg", categoria: "Cartonera", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
+  { nombre: { es: "I20", en: "I20" }, imagen: "cartonera3.jpg", categoria: "Cartonera", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
+  { nombre: { es: "I26", en: "I26" }, imagen: "cartonera4.jpg", categoria: "Cartonera", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
+  { nombre: { es: "CT-26", en: "CT-26" }, imagen: "cartonera2.jpg", categoria: "Cartonera", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
+  { nombre: { es: "I30", en: "I30" }, imagen: "cartonera1.jpg", categoria: "Cartonera", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
   // Litografía
-  { nombre: { es: "Litografía 1", en: "Lithography 1" }, imagen: "litografia-3.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "B11T"}, en: {capaSuperior: "B11T"} } },
-  { nombre: { es: "Litografía 2", en: "Lithography 2" }, imagen: "litografia-2.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "BTI-5"}, en: {capaSuperior: "BTI-5"} } },
-  { nombre: { es: "Litografía 3", en: "Lithography 3" }, imagen: "litografia-1.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "TAM-5"}, en: {capaSuperior: "TAM-5"} } },
-  { nombre: { es: "Litografía 4", en: "Lithography 4" }, imagen: "litografia-4.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "TAF-4"}, en: {capaSuperior: "TAF-4"} } },
-  { nombre: { es: "Litografía 1", en: "Lithography 1" }, imagen: "litografia-7.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "C39"}, en: {capaSuperior: "C39"} } },
-  { nombre: { es: "Litografía 2", en: "Lithography 2" }, imagen: "litografia-6.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "C42"}, en: {capaSuperior: "C42"} } },
-  { nombre: { es: "Litografía 3", en: "Lithography 3" }, imagen: "litografia-5.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "C60"}, en: {capaSuperior: "C60"} } },
+  { nombre: { es: "B11T", en: "B11T" }, imagen: "litografia-3.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
+  { nombre: { es: "BTI-5", en: "BTI-5" }, imagen: "litografia-2.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
+  { nombre: { es: "TAM-5", en: "TAM-5" }, imagen: "litografia-1.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
+  { nombre: { es: "TAF-4", en: "TAF-4" }, imagen: "litografia-4.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
+  { nombre: { es: "C39", en: "C39" }, imagen: "litografia-7.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
+  { nombre: { es: "C42", en: "C42" }, imagen: "litografia-6.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
+  { nombre: { es: "C60", en: "C60" }, imagen: "litografia-5.jpg", categoria: "Litografia", detalles: { es: {capaSuperior: "hide"}, en: {capaSuperior: "hide"} } },
 
 
 ];
