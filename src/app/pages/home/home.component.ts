@@ -37,6 +37,10 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   bandas = [
     {
+      "name": "BANDAS CLÁSICAS",
+      "value": "A,B,C,D,E.AX,BX,CX"
+    },
+    {
       "name": "BANDA MIL SUPER TORQUE",
       "value": "S3M,S5M,S8M,S14M"
     },
@@ -55,10 +59,6 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       "name": "BANDA SINCRÓNICA POLIURETANO",
       "value": "T2.5, T5, T10, T20, AT5, AT10, AT20"
-    },
-    {
-      "name": "BANDAS CLÁSICAS",
-      "value": "A,B,C,D,E.AX,BX,CX"
     },
     {
       "name": "BANDAS DOBLE",
